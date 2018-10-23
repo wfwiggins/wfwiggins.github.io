@@ -2,7 +2,11 @@
   link: /
 - name: About
   link: /about.html
-- name: Blog
-  link: /blog.html
+- name: "Command Line"
+  link: /command-line.html
+- name: "Setup Guide"
+  link: /setup.html
+- name: Python
+  link: /python.html
 - name: Contributors
   link: /contributors.html

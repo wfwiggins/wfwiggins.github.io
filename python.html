@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Python"
+---
+<h1>Python Lessons</h1>
+
+<ol>
+  {% for post in site.posts %}
+  {% if post.path contains 'python' %}
+    <li>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endif %}
+  {% endfor %}
+</ol>
