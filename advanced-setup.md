@@ -10,6 +10,10 @@ a fair amount of time to get everything installed and running. There's also
 the possibility that you'll spend a considerable amount of time tweaking things
 to your liking...
 
+Also, if you haven't yet installed the Xcode Developer Command Line Tools, return
+to the [Basic Setup Guide](/setup.html#developer-tools) and do this first.
+
+<hr>
 ## Zsh: the Z shell
 
 Zsh is an alternative shell that offers some really nice features like
@@ -39,6 +43,7 @@ $ brew install zsh
 $ sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
 ```
 
+<hr>
 ## Oh My Zsh
 
 Welcome to Zsh! Now on to installing Oh My Zsh, which is a collection of themes
@@ -61,6 +66,7 @@ Once this is is done, you'll be running your fancy new Zsh with Oh My Zsh. The
 default theme is `robbyrussell`. We'll change that shortly, though you can
 certainly keep it if you like it.
 
+<hr>
 ## Powerline Fonts
 
 Many Oh My Zsh themes require a [Powerline](https://github.com/powerline/fonts#quick-installation)
@@ -88,6 +94,7 @@ installed Powerline fonts (I recommend SourceCodePro for starters). I also
 recommend switching your color palette to "Solarized", as it plays nicely with
 Oh My Zsh.
 
+<hr>
 ## Configuring Zsh and Oh My Zsh with Nano
 
 Most commonly, people configure Zsh in their .zshrc file. The first time you

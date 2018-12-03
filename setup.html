@@ -1,15 +1,22 @@
 ---
 layout: default
-title: "Setup Guide"
+title: "Basic Setup Guide"
 ---
 <h1 id="Intro">{{ page.title }}</h1>
 <p>
-  This guide will step you through the process of setting up your development
+    This guide will step you through the process of setting up your development
   environment for using the command line to run programs in Python. The ideal
   <abbr title="Operating System">OS</abbr> to use is a Unix-based system such as
   MacOS or a Linux distribution (e.g. Ubuntu). For simplicity, I'll assume
   you're using MacOS, as Linux users probably won't need many of these tutorials.
-  For users on Windows 7, your "best" bet is <i>probably</i> to install
+</p>
+<p>
+    For users on Windows 10, your best bet is to install the Windows Subsystem
+  for Linux (WSL). I recommend selecting the Ubuntu distribution from the
+  Windows Store after enabling WSL. (<i>insert link for install guide here</i>)
+</p>
+<p>
+    For users on Windows 7, your "best" bet is <i>probably</i> to install
   <a href="https://www.cygwin.com/" target="_blank">Cygwin</a>, a terminal
   emulator for Windows that provides
   <blockquote cite="https://www.cygwin.com/">a large collection of GNU and Open
@@ -17,18 +24,13 @@ title: "Setup Guide"
   </blockquote>
 </p>
 <p>
-  For users on Windows 10, your best bet is to install the Windows Subsystem
-  for Linux (WSL). I recommend selecting the Ubuntu distribution from the
-  Windows Store after enabling WSL. (<i>insert link for install guide here</i>)
-</p>
-<p>
-  Cygwin and WSL will afford a similar experience to MacOS, though you may end up
+  WSL and Cygwin should afford a similar experience to MacOS, though you may end up
   spending a little more time with Google and Stack Overflow to get certain
   elements of the your <abbr title="development">dev</abbr> environment up and
   running.
 </p>
 <hr>
-<h2 id="Developer Tools">Installing Developer Tools</h2>
+<h2 id="developer-tools">Installing Developer Tools</h2>
 <p>
   Again, from here on out, we're assuming that you're using MacOS... I'll try
   to add support for WSL as this site evolves. However, I have little experience
@@ -38,7 +40,8 @@ title: "Setup Guide"
   The first thing you should do is install the full version of
   <a href="https://developer.apple.com/xcode/" target="_blank">Xcode</a>, which is available
   through the App Store. This will ensure that you have the full range of
-  command line tools available to you.
+  command line tools available to you - a necessary step before
+  <a href="/advanced-setup.html">Advanced Setup</a>.
 </p>
 <p>
   Once you've done that, it's time to open up a terminal window. The easiest
@@ -46,9 +49,69 @@ title: "Setup Guide"
   <code>{CMD-SPACE}</code>, then type "terminal", followed by
   <code>{ENTER}</code>.
   <!---Insert image with example here--->
+  <blockquote>
+      If you haven't already, this is the perfect time to head over to the
+      <a href="/command-line.html">Command Line</a> page for an introduction to the
+      <abbr title="Command Line Interface">CLI</abbr> (or "shell").
+  </blockquote>
 </p>
-<blockquote>
-  If you haven't already, this is the perfect time to head over to the
-  <a href="/command-line.html">Command Line</a> page for an introduction to the
-  <abbr title="Command Line Interface">CLI</abbr> (or "shell").
-</blockquote>
+<hr>
+<h2 id="text-editors">Text Editors</h2>
+<p>
+    Every programmer has his or her preferred text editor. I use <a href="https://atom.io/">Atom</a>. I used to
+    use <a href="https://www.sublimetext.com/">Sublime Text</a>. I dabble in <code>vim</code> for when I want to quickly edit a config
+    file or a shell script without leaving my Terminal. I don't recommend <code>vim</code> to
+    beginners. Sublime Text is sorta free and very configurable, but requires a little bit of
+    work to get it setup initially. Atom is for-real-free works great out of the box, but is also
+    configurable/extensible. I've heard <a href="https://code.visualstudio.com/">VS Code</a> is great (also free), but it doesn't play
+    particularly nice with <abbr title="Windows Subsystem for Linux">WSL</abbr>, so I haven't really bothered to try it out. I'd
+    recommend Atom to most beginners. But if you're unconvinced, you should do a
+    little research and figure out which text editor might be best for you. Just
+    pick a nice one with some simple features like syntax highlighting and it
+    will make programming/coding a lot more fun...and efficient.
+</p>
+<hr>
+<h2 id="python">Installing Python with Anaconda</h2>
+<p>
+    If you plan to do the <a href="/advanced-setup.html">Advanced Setup</a>, now
+    is the time to stop and head over there before continuing with these steps.
+    If not, feel free to proceed.
+</p>
+<p>
+    Though Python comes preinstalled with recent versions of MacOS, I highly
+    recommend using Anaconda (or Miniconda) for managing Python packages and
+    virutal environments (more on these later). You could follow
+    <a href="https://www.anaconda.com/download/#macos">this link</a> to download and
+    install Anaconda with all of it's bells and whistles. However, since we're
+    learning the command line, I recommend you go with
+    <a href="https://conda.io/miniconda.html">Miniconda</a>, a lighter-weight
+    version without the Spyder <abbr title="Independent Development Environment">IDE</abbr>.
+</p>
+<p>
+    If you go with Miniconda, select the download for Python 3.7 64-bit bash
+    installer for MacOSX. After the download is complete, enter the following
+    command in your terminal:
+    <code>bash Miniconda3-latest-MacOSX-x86_64.sh</code>. Follow any prompts
+    that arise during the install process. Once this is complete, the next thing
+    you'll want to do is test whether the install worked by entering a
+    <code>conda</code> command (e.g. <code>conda list</code>). If this produces
+    an error, then there are a couple of possibilities as to why this may not
+    have worked, most of which should be fixed after the next step.
+</p>
+<p>
+    The next step is to check your shell config file, either <code>~/.bashrc</code>
+    or <code>~/.zshrc</code>. Open this file in <code>nano</code> or your
+    favorite graphical text editor. The Miniconda install process should have
+    appended the following line to your "rc" file:
+    <code>export PATH="~/miniconda3/bin:$PATH"</code>. This command prepends the
+    path to the Miniconda functions to your system path environment variable. If
+    this is not the case, then you should add this line manually, save your changes
+    and reload your shell (open a new terminal window or source your "rc" file).
+</p>
+<hr>
+<h2 id="congrats">Congrats!</h2>
+<p>
+    You've completed Basic Setup. Time to move on to <a href="/advanced-setup.html">Advanced Setup</a>
+    or go straight to learning more about the command line, shell scripting,
+    and Python!
+</p>

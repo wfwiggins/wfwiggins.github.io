@@ -3,8 +3,11 @@ layout: default
 title: Contributors
 ---
 <h1>Contributors</h1>
-
-<ul>
+<p>
+    If you would like to become a Contributor, please fork the project on GitHub,
+    then write a post according to the Contributor Guidelines, and submit a
+    <b>pull request</b> (PR) for your post to be considered. 
+</p>
   {% for author in site.authors %}
     <li>
       <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
@@ -12,4 +15,39 @@ title: Contributors
       <p>{{ author.content | markdownify }}</p>
     </li>
   {% endfor %}
+</ul>
+
+<h1>Acknowledgements</h1>
+<p>
+    None of this would be possible without the inspiration, comments and support
+    of the following people (trying not to leave anyone out, but inevitably will):
+</p>
+<ul>
+    <li>Sarah Parks Wiggins - my extremely patient & supportive wife</li>
+    <li>Julian "Ian" Wiggins - my impossibly curious & creative son, who inspires
+        me to strive toward being a slightly better version of myself with each
+        passing day</li>
+    <li>My parents, Tom & Rachel Wiggins - for believing in me and supporting me always</li>
+    <li>My brother, Doug Wiggins - for his lifelong friendship and for always
+        keeping my ego in-check</li>
+    <li>Travis Caton, MD, and Kirti Magudia, MD, PhD - my inspiring & incredibly
+        tolerant partners-in-crime (or data science...)</li>
+    <li>Kathy Andriole, PhD - our wonderful mentor at the MGH-BWH Center for
+        Clinical Data Science</li>
+    <li>Michael Rosenthal, MD, PhD - another wonderful mentor via the Brigham &
+        Women's Hospital and Dana-Farber Cancer Institute Radiology Departments</li>
+    <li>Glenn Gaviola, MD, Bill Mayo-Smith, MD, and the rest of the BWH Radiology
+        Residency Leadership - for supporting a new, at times uncertain, endeavor
+        with the creation of the BWH-CCDS Data Science Pathway</li>
+    <li>Tessa Cook, MD, PhD, and Nabile Safdar, MD, MPH - co-conspirators with Kathy
+        for the NIIC, as well as co-mentors for the Society for Imaging Informatics
+        in Medicine (SIIM) Resident, Fellow & Doctoral Student (RFDS) Committee</li>
+    <li>My 2018-19 BWH Radiology co-residents - for being lab rats as I developed
+        this idea and who will, along with countless others, follow in my/our
+        footsteps and, hopefully, also contribute to this site to make it better
+        than I ever could on my own.</li>
+    <li>My impressive colleagues at the MGH-BWH Center for Clinical Data Science
+        - the dream team of software engineers, data scientists, and administrative
+        staff who teach me new lessons in data science and humility nearly every day</li>
+    <li>...and many more to come...</li>
 </ul>
