@@ -4,7 +4,7 @@ title: About
 ---
 # About page
 
-This site is is **_completely_ free** and designed for radiology residents (and fellows)
+This site is **_completely_ free** and designed for radiology residents (and fellows)
 interested in learning Python for Data Science. It was inspired by my own learning
 experience, my experience helping my co-residents, and a desire expressed by a number of
 participants in the Fall 2018 session of the [National Imaging Informatics Course](https://sites.google.com/view/imaging-informatics-course/home).
@@ -34,3 +34,4 @@ communication methods (e.g. email, texts) are notoriously slow. If you don't
 believe me, just ask my wife...
 
 Happy coding!
+Walter

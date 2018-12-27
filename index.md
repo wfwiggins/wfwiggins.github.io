@@ -11,7 +11,6 @@ Feel free to explore the tabs above to see what content is currently available.
 As of 2 Dec 2018, the initial passes at the following pages are up-to-date:
 - About
 - Basic Setup Guide
-- Advanced Setup
 - Contributors
 
 Content on the **Command Line** and **Python** pages will be posted in a blog-style
