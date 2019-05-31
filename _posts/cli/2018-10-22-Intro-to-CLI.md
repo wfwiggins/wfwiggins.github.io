@@ -11,29 +11,42 @@ somewhat familiar with the process of running some basic commands in the
 terminal. Either way, we'll start with some basic shell terminology and functionality.
 
 <hr>
-**Terminology:**
-- **Terminal:** technically a *terminal emulator*, this is the *command line interface*
-or CLI - the window to the shell
-- **Shell:** the program that runs in the terminal allowing you to interact with
-and manipulate files
-    - each shell has its own functions, but there are many common functions and
-    the language is mostly standardized (POSIX standard for Unix-based operating systems)
-    - Commonly used shells include:
-        - sh: a basic, lightweight shell
-        - bash: the Bourne-again shell, the *most widely used* shell
-        - zsh: the Z shell, added functionality and customization geared toward
-        increasing productivity -> **my preferred shell**
-- **Scripts:** these are short programs that are written in the shell language
-and run from the command line
-- **Process:** in shell lingo, a process is a running program. Every program
-running on your machine right now has at least one process associated with it.
-- **Dotfiles:** these are files with names like `.bashrc`, `.zshrc`, or
-`.tmux.conf` that primarily serve as configuration files for the shell and its
-utilities. Most of these will live in your home folder `/Users/walter` on MacOS
-or `/home/walter` on Linux, both of which have the shortcut `~`.
-- **Directory:** a.k.a. folder; contains files
-- **`stdout`**: standard output = what prints to your terminal when a command
-or script is executed.
+## Terminology
+<dl>
+    <dt>Terminal</dt>
+    <dd>technically, a *terminal emulator*, this is the *command line interface*
+    or CLI - the window to the shell</dd>
+    <dt>Shell</dt>
+    <dd>the program that runs in the terminal allowing you to interact with
+    and manipulate files</dd>
+</dl>
+- each shell has its own functions, but there are many common functions and
+the language is mostly standardized (POSIX standard for Unix-based operating systems)
+- Commonly used shells include:
+    - sh: a basic, lightweight shell
+    - bash: the Bourne-again shell, the *most widely used* shell
+    - zsh: the Z shell, added functionality and customization geared toward
+    increasing productivity -> **my preferred shell**
+
+<dl>
+    <dt>Scripts</dt>
+    <dd>short programs that are written in the shell language
+    and run from the command line</dd>
+    <dt>Process</dt>
+    <dd>a running program. Every program running on your machine right now has
+    at least one process associated with it.</dd>
+    <dt>Dotfiles</dt>
+    <dd>files with names like `.bashrc`, `.zshrc`, or
+    `.tmux.conf` that primarily serve as configuration files for the shell and its
+    utilities. Most of these will live in your home folder `/Users/walter` on MacOS
+    or `/home/walter` on Linux, both of which have the shortcut `~`.</dd>
+    <dt>Directory</dt>
+    <dd>a.k.a. folder; contains files</dd>
+    <dt>stdout</dt>
+    <dd>i.e. standard output; what prints to your terminal when a command or
+    script is executed</dd>
+</dl>
+
 <hr>
 
 ## Purpose of the shell/CLI
