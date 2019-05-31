@@ -32,6 +32,8 @@ running on your machine right now has at least one process associated with it.
 utilities. Most of these will live in your home folder `/Users/walter` on MacOS
 or `/home/walter` on Linux, both of which have the shortcut `~`.
 - **Directory:** a.k.a. folder; contains files
+- **`stdout`**: standard output = what prints to your terminal when a command
+or script is executed.
 <hr>
 
 ## Purpose of the shell/CLI
@@ -56,4 +58,26 @@ data for an intro to Machine Learning in Radiology and use shell functions &
 scripts to rename and move files into a more convenient directory structure
 before we move on to *conquer the universe* with our algorithms.
 
-## TO BE CONTINUED...
+One advantage of this tutorial is that you can run the shell code via the
+terminal emulator provided on the website. However, I recommend you try to get
+these scripts running in your own terminal.
+
+**Note:** As defined above, shell scripts are text files of shell code that can
+be run in the terminal with any output printed to the `stdout` of the shell. One
+way to create and run your own script is to run the following code. The structure
+or *syntax* of these commands is `command --options arg1 arg2`. You may not always
+use options or arguments (args) and some commands like `chmod` have special
+syntax for options.
+
+```zsh
+# Comment: this command creates a new file named 'script.sh' in the current working directory (cwd)
+$ touch script.sh
+$ ls  # list the files in the cwd, you should now see 'script.sh' among these
+$ chmod +x script.sh  # gives the current user execute permissions for the file
+$ nano script.sh  # open the file with the nano text editor (can use atom command for Atom)
+# transcribe the code from the tutorial into the file and save
+$ bash script.sh  # runs the script
+```
+
+> [Learn Shell Interactive Tutorial](https://www.learnshell.org/): Proceed to
+the linked page and complete each exercise under "Learn the Basics".
