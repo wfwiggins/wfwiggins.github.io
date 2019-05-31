@@ -55,3 +55,5 @@ this tutorial, head on to the next Command Line post, where we'll download some
 data for an intro to Machine Learning in Radiology and use shell functions &
 scripts to rename and move files into a more convenient directory structure
 before we move on to *conquer the universe* with our algorithms.
+
+## TO BE CONTINUED...

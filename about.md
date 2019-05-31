@@ -18,7 +18,7 @@ learning data science techniques for Radiology machine learning research. Thus,
 I will also generate some original content and tutorials more germane to this
 line of inquiry.
 
-Eventually, I intend to open-source this curriculum so that others with
+Eventually, I intend to open-source this site so that others with
 experience (or even expertise, ha) in this arena may contribute and help make
 this better for everyone. That is why this site is hosted via GitHub.
 

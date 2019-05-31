@@ -15,7 +15,7 @@ If you are new to Python, I suggest you start by reviewing the
 <hr>
 ## IPython
 
-IPython (or Interactive Python) is a "read-eval-print loop" programming
+IPython (or Interactive Python) is a "read-eval-print loop" (REPL) programming
 environment for the Python language. It is the basis for Jupyter notebooks. It
 is a program run via the shell by entering the command `ipython`, assuming that
 you have this package installed. I find IPython to be a very convenient way to
@@ -73,6 +73,21 @@ anyone learning data science.
 
 ```zsh
 $ conda create -n datasci numpy pandas matplotlib ipython jupyter python=3.6
+```
+
+> Note: the above step will install the following Python packages:
+- ipython - described above
+- numpy - standard numerical computing library
+- pandas - data manipulation library (good for managing tabular data)
+- matplotlib - basic data plotting library
+- jupyter - notebook-style environment
+
+**MacOS Users:** You will need to run the following commands in your terminal to
+get `matplotlib` working properly.
+
+```zsh
+$ mkdir ~/.matplotlib
+$ echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
 ```
 
 The beauty of `conda` (and with any good package manager) is that this relatively
