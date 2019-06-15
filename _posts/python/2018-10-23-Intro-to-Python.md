@@ -138,9 +138,9 @@ Next, when you run the command `jupyter notebook`, you convert your shell into a
 browser window will automatically launch. If this does not happen for you, try
 opening a new browser window and typing the following address: `localhost:8888`.
 
-![](/images/jupyter_cmd.png)
+<img src="/images/jupyter_cmd.png" class="center">
 
-![](/images/jupyter-home.png)
+<img src="/images/jupyter-home.png" class="center">
 
 Now you can click `New` and select `Python` to create your first Jupyter notebook.
 The code cells work similarly to IPython, except that these *cells* can be run
@@ -150,7 +150,7 @@ and (2) you can convert code cells to *Markdown* cells that can be used to forma
 text to explain your code as you go along. This is where programming meets the
 old-fashioned lab notebook (not coincidentally, the inspiration for the name).
 
-![](/images/new-notebook.gif)
+<img src="/images/new-notebook.gif" class="center">
 
 Once again, code away young Padawan!
 
