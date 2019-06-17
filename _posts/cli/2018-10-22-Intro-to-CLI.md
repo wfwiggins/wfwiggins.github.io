@@ -57,11 +57,27 @@ files, in addition to *Dotfiles* and files without extensions, among many other
 file types. The shell is also really useful for managing processes and working
 on remote systems, such as *servers*.
 
+<figure>
+    <img src="/images/terminal-bash.png" class="center">
+    <figcaption style="text-align:center; text-size=70%;">
+        Bash running in the Terminal app on MacOS
+    </figcaption>
+</figure>
+<br/>
+
 Due to the ability to work directly and efficiently with text files, the shell
 is a critical tool for developers and data scientists. Basically, anyone regularly
 writing and running code could benefit from becoming more familiar with the shell.
 Given its ubiquity in the tech world, there are plenty of great tutorials out there
 that can help introduce you to the glories of the Command Line.
+
+<figure>
+    <img src="/images/iTerm-zsh.png" class="center">
+    <figcaption style="text-align:center; text-size=70%;">
+        Zsh running in the iTerm app on MacOS
+    </figcaption>
+</figure>
+<br/>
 
 The tutorial I link to below is one of the more succinct introductions that should
 help you get started. However, it's *very easy* to get stuck in the proverbial

@@ -24,7 +24,13 @@ Some people use Jupyter notebooks for this purpose, but sometimes that gets a
 little messy. So...when I'm *really* experimenting, I tend to open up my Terminal
 and run IPython.
 
-<img src="/images/ipython.png" class="center">
+<figure>
+    <img src="/images/ipython.png" class="center">
+    <figcaption style="text-align:center; text-size:70%;">
+        IPython running within my terminal
+    </figcaption>
+</figure>
+<br/>
 
 <hr>
 ## Anaconda, `conda` and virtual environments
@@ -142,9 +148,20 @@ Next, when you run the command `jupyter notebook`, you convert your shell into a
 browser window will automatically launch. If this does not happen for you, try
 opening a new browser window and typing the following address: `localhost:8888`.
 
-<img src="/images/jupyter_cmd.png" class="center">
-
-<img src="/images/jupyter-home.png" class="center">
+<figure>
+    <img src="/images/jupyter_cmd.png" class="center">
+    <figcaption style="text-align:center; text-size:70%;">
+        Jupyter command launching Jupyter server in the terminal
+    </figcaption>
+</figure>
+<br/>
+<figure>
+    <img src="/images/jupyter-home.png" class="center">
+    <figcaption style="text-align:center; text-size:70%;">
+        Jupyter server running in a Firefox window
+    </figcaption>
+</figure>
+<br/>
 
 Now you can click `New` and select `Python` to create your first Jupyter notebook.
 The code cells work similarly to IPython, except that these *cells* can be run
@@ -154,7 +171,13 @@ and (2) you can convert code cells to *Markdown* cells that can be used to forma
 text to explain your code as you go along. This is where programming meets the
 old-fashioned lab notebook (not coincidentally, the inspiration for the name).
 
-<img src="/images/new-notebook.gif" class="center">
+<figure>
+    <img src="/images/new-notebook.gif" class="center">
+    <figcaption style="text-align:center; text-size:70%;">
+        How to create a new Python3 notebook
+    </figcaption>
+</figure>
+<br/>
 
 Once again, code away young Padawan!
 
