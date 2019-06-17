@@ -24,6 +24,8 @@ Some people use Jupyter notebooks for this purpose, but sometimes that gets a
 little messy. So...when I'm *really* experimenting, I tend to open up my Terminal
 and run IPython.
 
+<img src="/images/ipython.png" class="center">
+
 <hr>
 ## Anaconda, `conda` and virtual environments
 
@@ -82,6 +84,7 @@ $ conda create -n datasci numpy pandas matplotlib ipython jupyter python=3.6
 - matplotlib - basic data plotting library
 - jupyter - notebook-style environment
 
+<hr>
 **MacOS Users:** You will need to run the following commands in your terminal to
 get `matplotlib` working properly.
 
@@ -89,6 +92,7 @@ get `matplotlib` working properly.
 $ mkdir ~/.matplotlib
 $ echo "backend: TkAgg" >> ~/.matplotlib/matplotlibrc
 ```
+<hr>
 
 The beauty of `conda` (and with any good package manager) is that this relatively
 simple command will install everything that each of these packages needs - their

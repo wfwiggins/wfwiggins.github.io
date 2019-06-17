@@ -14,8 +14,8 @@ terminal. Either way, we'll start with some basic shell terminology and function
 ## Terminology
 <dl>
     <dt>Terminal</dt>
-    <dd>technically, a *terminal emulator*, this is the *command line interface*
-    or CLI - the window to the shell</dd>
+    <dd>technically, a <strong>terminal emulator</strong>, this is the
+    <strong>command line interface</strong> or CLI - the window to the shell</dd>
     <dt>Shell</dt>
     <dd>the program that runs in the terminal allowing you to interact with
     and manipulate files</dd>
@@ -23,9 +23,9 @@ terminal. Either way, we'll start with some basic shell terminology and function
 - each shell has its own functions, but there are many common functions and
 the language is mostly standardized (POSIX standard for Unix-based operating systems)
 - Commonly used shells include:
-    - sh: a basic, lightweight shell
-    - bash: the Bourne-again shell, the *most widely used* shell
-    - zsh: the Z shell, added functionality and customization geared toward
+    - **sh:** a basic, lightweight shell
+    - **bash:** the Bourne-again shell, the *most widely used* shell
+    - **zsh:** the Z shell, added functionality and customization geared toward
     increasing productivity -> **my preferred shell**
 
 <dl>
@@ -63,13 +63,9 @@ writing and running code could benefit from becoming more familiar with the shel
 Given its ubiquity in the tech world, there are plenty of great tutorials out there
 that can help introduce you to the glories of the Command Line.
 
-The following tutorial is one of the more succinct introductions that should
+The tutorial I link to below is one of the more succinct introductions that should
 help you get started. However, it's *very easy* to get stuck in the proverbial
-**"Tutorial Hell"**. So we won't beat around the bush here. After you complete
-this tutorial, head on to the next Command Line post, where we'll download some
-data for an intro to Machine Learning in Radiology and use shell functions &
-scripts to rename and move files into a more convenient directory structure
-before we move on to *conquer the universe* with our algorithms.
+**"Tutorial Hell"**. So we won't beat around the bush here.
 
 One advantage of this tutorial is that you can run the shell code via the
 terminal emulator provided on the website. However, I recommend you try to get
@@ -94,3 +90,9 @@ $ bash script.sh  # runs the script
 
 > [Learn Shell Interactive Tutorial](https://www.learnshell.org/): Proceed to
 the linked page and complete each exercise under "Learn the Basics".
+
+After you complete this tutorial, check back for the next Command Line post, where
+we'll download some data for an intro to Machine Learning in Radiology and use
+shell functions & scripts to rename and move files into a more convenient
+directory structure before we move on to *conquer the universe* with our
+algorithms.
