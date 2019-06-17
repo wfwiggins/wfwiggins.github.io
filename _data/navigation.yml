@@ -6,11 +6,11 @@
   link: /resources.html
 - name: "Basic Setup Guide"
   link: /setup.html
-# - name: "Advanced Setup"
-#   link: /advanced-setup.html
 - name: "Command Line"
   link: /command-line.html
 - name: Python
   link: /python.html
+- name: "Advanced Setup"
+  link: /advanced-setup.html
 - name: Contributors
   link: /contributors.html
