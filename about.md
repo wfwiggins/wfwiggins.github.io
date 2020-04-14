@@ -24,7 +24,7 @@ this better for everyone. That is why this site is hosted via GitHub.
 
 If, at any point, you read something that is unclear or run into insurmountable
 errors not alleviated by duly rigorous searching on Google and/or StackOverflow...
-then, by all means, please feel free to email me at [wwiggins@bwh.harvard.edu](mailto:wwiggins@bwh.harvard.edu). However, the
+then, by all means, please feel free to email me at [walter.wiggins@duke.edu](mailto:walter.wiggins@duke.edu). However, the
 more effective (and, let's be honest, *tech savvy*) method would be to
 submit an **Issue** on the GitHub repo for this site (click the green button at
 the top of the screen, then navigate to the **Issues** tab and gripe away). The
