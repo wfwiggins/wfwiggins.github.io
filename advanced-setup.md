@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Advanced Setup"
 ---
 # Advanced Setup

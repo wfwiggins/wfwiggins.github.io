@@ -1,10 +1,9 @@
 ---
-layout: default
 title: About
 ---
 # About page
 
-This site is **_completely_ free** and designed for radiology residents (and fellows)
+This site is **free** and specifically designed for radiology residents (and fellows)
 interested in learning Python for Data Science. It was inspired by my own learning
 experience, my experience helping my co-residents, and a desire expressed by a number of
 participants in the Fall 2018 session of the [National Imaging Informatics Course](https://sites.google.com/view/imaging-informatics-course/home).
@@ -19,7 +18,7 @@ I will also generate some original content and tutorials more germane to this
 line of inquiry.
 
 Eventually, I intend to open-source this site so that others with
-experience (or even expertise, ha) in this arena may contribute and help make
+experience (or even _expertise_) in this arena may contribute and help make
 this better for everyone. That is why this site is hosted via GitHub.
 
 If, at any point, you read something that is unclear or run into insurmountable

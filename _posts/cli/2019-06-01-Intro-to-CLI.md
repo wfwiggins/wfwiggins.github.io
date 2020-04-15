@@ -3,7 +3,7 @@ layout: post
 author: walter
 title: "Introduction to the Command Line Interface (CLI)"
 ---
-Before you dig into Python and get to working on your *revolutionary* algorithms, I
+Before you dig into Python and get to working on your algorithms, I
 highly recommend that you get familiar with the **command line** (variably referred
 to as the **terminal** or **shell**, though there is a distinct difference between
 each of these terms). If you've followed our Setup Guides, then you should already be
@@ -110,5 +110,4 @@ the linked page and complete each exercise under "Learn the Basics".
 After you complete this tutorial, check back for the next Command Line post, where
 we'll download some data for an intro to Machine Learning in Radiology and use
 shell functions & scripts to rename and move files into a more convenient
-directory structure before we move on to *conquer the universe* with our
-algorithms.
+directory structure before we move on to implement our first algorithm.
