@@ -27,4 +27,4 @@ defaults:
     values:
       layout: "default"
 
-github: [metadata]
+repository: wfwiggins/wfwiggins.github.io
